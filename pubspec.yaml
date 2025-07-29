@@ -1,0 +1,56 @@
+name: text_vault
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  floating_draggable_widget: ^2.3.0
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  intl: ^0.18.0
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/logo.jpg"
+  min_sdk_android: 24
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
+  fonts:
+    - family: Acme
+      fonts:
+        - asset: fonts/asset/Acme-Regular.ttf
+    - family: Alatsi
+      fonts:
+        - asset: fonts/asset/Alatsi-Regular.ttf
+          weight: 700
+    - family: Arvo
+      fonts:
+        - asset: fonts/Arvo-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: fonts/Arvo-Bold.ttf
+          weight: 600
+          style: normal
+        - asset: fonts/Arvo-BoldItalic.ttf
+          weight: 600
+          style: italic
