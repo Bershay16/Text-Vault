@@ -2,8 +2,8 @@
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="./screenshots/auto_save.jpg" width="250"/>
   <img src="./screenshots/home.jpg" width="250"/>
+  <img src="./screenshots/auto_save.jpg" width="250"/>
   <img src="./screenshots/logged.jpg" width="250"/>
 </p>
 
